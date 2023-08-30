@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/08/2023
+Var
+// Seção de Declarações das variáveis 
+valorI: INTEIRO
+valorII: INTEIRO
+valorIII: INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("digite o primeiro valor:")
+leia (valorI)
+
+escreval ("digite o segundo valor:")
+leia (valorII)
+
+escreval("digite o terceiro valor:")
+leia (valorIII)
+
+se valorI + valorII > valorIII entao
+
+escreval("Soma de A+B maior que C")
+senao
+
+escreval("Soma de A+B Menor que C")
+fimse
+
+
+Fimalgoritmo
