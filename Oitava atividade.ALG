@@ -1,4 +1,4 @@
-algoritmo "Consulta de PreÁo de CDs por Cor"
+algoritmo "Consulta de Pre√ßo de CDs por Cor"
 var
 cor: caractere
 
@@ -6,19 +6,26 @@ inicio
 escreva("Digite a cor do CD (Verde, Azul, Amarelo, Vermelho): ")
 leia(cor)
 
+//valor das cores
+
 se (cor = "Verde") ou (cor = "verde") entao
-escreva("PreÁo: R$ 10,00")
+escreva("Pre√ßo: R$ 10,00")
+
 senao
 se (cor = "Azul") ou (cor = "azul")  entao
-escreva("PreÁo: R$ 20,00")
+escreva("Pre√ßo: R$ 20,00")
+
 senao
 se (cor = "Amarelo") ou (cor = "amarelo") entao
-escreva("PreÁo: R$ 30,00")
+escreva("Pre√ßo: R$ 30,00")
+
 senao
 se (cor = "Vermelho") ou (cor = "vermelho") entao
-escreva("PreÁo: R$ 40,00")
+escreva("Pre√ßo: R$ 40,00")
+
 senao
-escreva("Cor inv·lida.")
+escreva("Cor inv√°lida.")
+
 fimse
 fimse
 fimse
