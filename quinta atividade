@@ -18,6 +18,9 @@ leia(A)
 escreva("Digite o valor de B: ")
 leia(B)
 
+// MULTIPLICACAO, ADICAO, DIVISAO, SUBTRACAO
+
+
 escolha operacao
 caso "+"
 resultado <- A + B
