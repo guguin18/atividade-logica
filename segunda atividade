@@ -1,11 +1,11 @@
  Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 29/08/2023
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 nome: caracter
 estadocivil: caracter
 sexo: caracter
@@ -13,7 +13,7 @@ casada: caracter
 anoscasamento: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 casada <- "casada"
 
@@ -27,19 +27,19 @@ escreval("Digite Seu Sexo: ")
 leia(sexo)
 
 se estadocivil = casada entao
-escreval("Digite os Anos que está casada: ")
+escreval("Digite os Anos que estÃ¡ casada: ")
 leia(anoscasamento)
 
-senao escreval("Continue o Código")
+senao escreval("Continue o CÃ³digo")
 
 
 fimse
 
 limpatela
 
-escreval("O nome do usuário é: ", nome)
-escreval("O estado civil do usuário é:", estadocivil)
-escreval("O Sexo do usuário é: " , sexo)
+escreval("O nome do usuÃ¡rio Ã©: ", nome)
+escreval("O estado civil do usuÃ¡rio Ã©:", estadocivil)
+escreval("O Sexo do usuÃ¡rio Ã©: " , sexo)
 
 
 
