@@ -12,6 +12,8 @@ inicio
    valorMorangos <- 0
    valorMacas <- 0
 
+// valores da maca e morango
+
    se morangos <= 5 entao
       valorMorangos <- morangos * 2.50
    senao
