@@ -1,30 +1,34 @@
-algoritmo "C·lculo de Compra"
+algoritmo "C√°lculo de Compra"
 var
    nome: caractere
    quantidade: inteiro
    precoUnitario, total, desconto, totalAPagar: real
 
 inicio
-   escreva("Digite a descriÁ„o do produto (nome): ")
+   escreva("Digite a descri√ß√£o do produto (nome): ")
    leia(nome)
 
    escreva("Digite a quantidade adquirida: ")
    leia(quantidade)
 
-   escreva("Digite o preÁo unit·rio: ")
+   escreva("Digite o pre√ßo unit√°rio: ")
    leia(precoUnitario)
+// valor do produto
+total <- quantidade * precoUnitario
 
-   total <- quantidade * precoUnitario
+se quantidade <= 5 entao
+desconto <- total * 0.02
 
-   se quantidade <= 5 entao
-      desconto <- total * 0.02
-   senao
-      se quantidade <= 10 entao
-         desconto <- total * 0.03
-      senao
-         desconto <- total * 0.05
-      fimse
-   fimse
+senao
+se quantidade <= 10 entao
+desconto <- total * 0.03
+
+senao
+
+desconto <- total * 0.05
+fimse
+fimse
+// conclusao
 
    totalAPagar <- total - desconto
    limpatela
