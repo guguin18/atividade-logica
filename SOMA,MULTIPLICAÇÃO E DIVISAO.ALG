@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/09/2023
+var
+operacao: caractere
+A, B, resultado: real
+
+inicio
+escreva("Digite a operação desejada (+, -, *, /): ")
+leia(operacao)
+
+escreva("Digite o valor de A: ")
+leia(A)
+
+escreva("Digite o valor de B: ")
+leia(B)
+
+escolha operacao
+caso "+"
+resultado <- A + B
+caso "-"
+resultado <- A - B
+caso "*"
+resultado <- A * B
+caso "/"
+resultado <- A / B
+fimescolha
+
+escreval("Resultado: ", resultado)
+fimalgoritmo
