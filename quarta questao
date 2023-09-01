@@ -6,7 +6,7 @@ inicio
    escreva("Digite a quantidade (em Kg) de morangos: ")
    leia(morangos)
 
-   escreva("Digite a quantidade (em Kg) de maças: ")
+   escreva("Digite a quantidade (em Kg) de maÃ§as: ")
    leia(macas)
 
    valorMorangos <- 0
