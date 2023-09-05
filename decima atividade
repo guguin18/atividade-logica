@@ -26,7 +26,8 @@ valorPagar <- litros * (precoAlcool - precoAlcool * 0.04)
 fimse
 
 senao
-se (tipoCombustivel = "G") ou (tipoCombustivel = "g") entaose litros <= 25 entao
+se (tipoCombustivel = "G") ou (tipoCombustivel = "g") entao
+se litros <= 25 entao
 valorPagar <- litros * (precoGasolina - precoGasolina * 0.03)
  
 senao
